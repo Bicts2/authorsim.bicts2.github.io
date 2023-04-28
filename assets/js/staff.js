@@ -17,7 +17,7 @@ const staffNames = [
 
 export const hireStaff = (slot) => {
   const name = staffNames[Math.floor(Math.random() * staffNames.length)]
-  const cost = Math.pow(slot, 2.3) * 50
+  const cost = Math.pow(slot, 2.3) * 100
   if (save.words.total >= cost) {
     save.words.total -= cost
     save['staff']['s' + slot] = {
@@ -44,8 +44,8 @@ export const buyMonkey = () => {
   const monkeys = save.monkeys
   if (words['total'] >= monkeys['cost']) {
     words['total'] -= monkeys['cost']
-    monkeys['total'] += 1
-    monkeys['lifetime'] += 1
+    monkeys['total'] += 2
+    monkeys['lifetime'] += 2
     monkeys['cost'] = Math.floor((monkeys['cost'] + 2) * 1.06)
     $('#monkeyCost').text(monkeys['cost'])
   } else {
