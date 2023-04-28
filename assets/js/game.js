@@ -16,7 +16,7 @@ const init = () => {
     ver: '0.7.1',
     monkeys: { total: 0,
                 multiplier: 1.0,
-                cost: 1,
+                cost: 7,
                 lifetime: 0,
     },
     letters: { unit: 'letters',
