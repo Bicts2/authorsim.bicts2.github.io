@@ -389,79 +389,79 @@ let UnitPanelLettersUpgrade = React.createClass({
           upgradeName="Write Words"
           desc="Allows you to write words manually."
           func={upgrade.writeWords}
-          cost="34 Letters"
+          cost="238 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Faster Letters"
           desc="Write letters 50% faster."
           func={upgrade.fasterLetters}
-          cost="175 Letters"
+          cost="1,225 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Efficient Monkeys"
           desc="Monkeys write 10% more letters."
           func={upgrade.efficientMonkeys}
-          cost="75 Letters"
+          cost="525 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Monkey Intelligence I"
           desc="Monkeys write 20% more letters."
           func={upgrade.monkeyIntelligenceI}
-          cost="350 Letters"
+          cost="2,450 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Smarter Letters"
           desc="Write 10% more letters."
           func={upgrade.smarterLetters}
-          cost="500 Letters"
+          cost="3,500 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Monkey Intelligence II"
           desc="Monkeys write 25% more letters."
           func={upgrade.monkeyIntelligenceII}
-          cost="775 Letters"
+          cost="5,425 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Efficient Words"
           desc="Words are 10% cheaper."
           func={upgrade.efficientWords}
-          cost="1,450 Letters"
+          cost="10,150 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Monkey Intelligence Breakthrough"
           desc="Monkeys write 100% more letters."
           func={upgrade.monkeyIntelligenceBreakthrough}
-          cost="2,200 Letters"
+          cost="15,400 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Too Many Letters"
           desc="Write 200% more words."
           func={upgrade.tooManyLetters}
-          cost="5,000 Letters"
+          cost="35,000 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Monkey Glasses"
           desc="Monkeys tap out 150% more letters."
           func={upgrade.monkeyGlasses}
-          cost="3,400 Letters"
+          cost="23,800 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Another Finger"
           desc="What the? Monkeys write 20% more letters."
           func={upgrade.anotherFinger}
-          cost="8,750 Letters"
+          cost="61,250 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Third Arm"
           desc="Disturbing and efficient. Monkeys write 33% more letters."
           func={upgrade.thirdArm}
-          cost="24,000 Letters"
+          cost="168,000 Letters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Strange Language"
           desc="Sounds like a kind of moaning. No matter, monkeys write 50% more letters."
           func={upgrade.strangeLanguage}
-          cost="50,000 Letters"
+          cost="350,000 Letters"
         />
       </div>
     )
@@ -476,55 +476,55 @@ let UnitPanelWordsUpgrade = React.createClass({
           upgradeName="Write Sentences"
           desc="Allows you to write sentences manually."
           func={upgrade.writeSentences}
-          cost="30 Words"
+          cost="60 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Faster Words"
           desc="Write words 30% faster."
           func={upgrade.fasterWords}
-          cost="25 Words"
+          cost="50 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Word Whiz"
           desc="Write 15% more words."
           func={upgrade.wordWhiz}
-          cost="100 Words"
+          cost="200 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Getting The Hang Of It"
           desc="Write words 50% faster."
           func={upgrade.gettingTheHangOfIt}
-          cost="300 Words"
+          cost="600 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Word Of Wisdom"
           desc="Write 50% more words."
           func={upgrade.wordOfWisdom}
-          cost="550 Words"
+          cost="1,100 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Sticks And Stones"
           desc="Words hurt, I mean cost 20% more but generate 50% more."
           func={upgrade.sticksAndStones}
-          cost="1,100 Words"
+          cost="2,200 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Dime A Dozen"
           desc="Write 10% more words."
           func={upgrade.dimeADozen}
-          cost="5,500 Words"
+          cost="11,000 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Choice Words"
           desc="Write words 35% faster."
           func={upgrade.choiceWords}
-          cost="8,050 Words"
+          cost="16,100 Words"
         />
         <UnitPanelUpgradeItem
           upgradeName="Gobbeldy Gook"
           desc="Write 100% more words."
           func={upgrade.gobbeldyGook}
-          cost="17,000 Words"
+          cost="34,000 Words"
         />
       </div>
     )
@@ -539,67 +539,67 @@ let UnitPanelSentencesUpgrade = React.createClass({
         upgradeName="Write Pages"
         desc="Allows you to write pages manually."
         func={upgrade.writePages}
-        cost="50 Sentences"
+        cost="100 Sentences"
       />
         <UnitPanelUpgradeItem
           upgradeName="Faster Sentences"
           desc="Write sentences 25% faster."
           func={upgrade.fasterSentences}
-          cost="25 Sentences"
+          cost="50 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Higher Learning"
           desc="Write 15% more sentences."
           func={upgrade.higherLearning}
-          cost="105 Sentences"
+          cost="210 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Longer Sentences"
           desc="Sentences cost 10% more but write 50% more."
           func={upgrade.longerSentences}
-          cost="150 Sentences"
+          cost="300 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Even Faster Sentences"
           desc="Write sentences 50% faster."
           func={upgrade.evenFasterSentences}
-          cost="85 Sentences"
+          cost="170 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Letter Tradeoff"
           desc="Generate 10% fewer letters and 30% more sentences."
           func={upgrade.letterTradeoff}
-          cost="125 Sentences"
+          cost="250 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Common Knowledge"
           desc="Write pages 50% faster."
           func={upgrade.commonKnowledge}
-          cost="210 Sentences"
+          cost="420 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Repeating Patterns"
           desc="Write 35% more sentences 25% faster."
           func={upgrade.repeatingPatterns}
-          cost="500 Sentences"
+          cost="1,000 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Bigger Font Size"
           desc="Hardly cheating. Write sentences 30% faster."
           func={upgrade.biggerFontSize}
-          cost="1,350 Sentences"
+          cost="2,700 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Spinning Sentences"
           desc="Has anyone really been far even as decided to use even go want to do look more like? Also, write sentences twice as fast."
           func={upgrade.spinningSentences}
-          cost="1,600 Sentences"
+          cost="3,200 Sentences"
         />
         <UnitPanelUpgradeItem
           upgradeName="Letter Spacing"
           desc="Squeeze them a little further...perfect. Write 60% more sentences."
           func={upgrade.letterSpacing}
-          cost="1,900 Sentences"
+          cost="3,800 Sentences"
         />
       </div>
     )
@@ -614,49 +614,49 @@ let UnitPanelPagesUpgrade = React.createClass({
           upgradeName="Write Chapters"
           desc="Allows you to write chapters manually."
           func={upgrade.writeChapters}
-          cost="300 Pages"
+          cost="900 Pages"
         />
         <UnitPanelUpgradeItem
           upgradeName="Jump Off The Page"
           desc="Write 10% more pages."
           func={upgrade.jumpOffThePage}
-          cost="45 Pages"
+          cost="135 Pages"
         />
         <UnitPanelUpgradeItem
           upgradeName="Faster Pages"
           desc="Write pages 20% faster."
           func={upgrade.fasterPages}
-          cost="75 Pages"
+          cost="225 Pages"
         />
         <UnitPanelUpgradeItem
           upgradeName="Smaller Margins"
           desc="Write 25% more pages for 10% more sentences."
           func={upgrade.smallerMargins}
-          cost="150 Pages"
+          cost="450 Pages"
         />
         <UnitPanelUpgradeItem
           upgradeName="Trickle Effect"
           desc="Write 20% more pages, 10% more sentences, 5% more words, and 2.5% more letters."
           func={upgrade.trickleEffect}
-          cost="350 Pages"
+          cost="1,050 Pages"
         />
         <UnitPanelUpgradeItem
           upgradeName="Triple Spacing"
           desc="No one will notice. Write pages 33% faster."
           func={upgrade.tripleSpacing}
-          cost="800 Pages"
+          cost="2,400 Pages"
         />
         <UnitPanelUpgradeItem
           upgradeName="Huge Margins"
           desc="Pushing 1.1 inches, eh? Write 25% more pages."
           func={upgrade.hugeMargins}
-          cost="1,000 Pages"
+          cost="3,000 Pages"
         />
         <UnitPanelUpgradeItem
           upgradeName="Paragraph Spacing"
           desc="More space between paragraphs. Write pages 30% faster."
           func={upgrade.paragraphSpacing}
-          cost="1,200 Pages"
+          cost="3,600 Pages"
         />
       </div>
     )
@@ -671,31 +671,31 @@ let UnitPanelChaptersUpgrade = React.createClass({
           upgradeName="Write Books"
           desc="Allows you to write books manually."
           func={upgrade.writeBooks}
-          cost="300 Chapters"
+          cost="600 Chapters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Faster Chapters"
           desc="Write chapters 30% faster."
           func={upgrade.fasterChapters}
-          cost="3 Chapters"
+          cost="6 Chapters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Share The Love"
           desc="Write all units 20% faster."
           func={upgrade.shareTheLove}
-          cost="22 Chapters"
+          cost="44 Chapters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Chapter A Day"
           desc="Keeps the monkeys at bay. Write pages 60% faster."
           func={upgrade.chapterADay}
-          cost="33 Chapters"
+          cost="66 Chapters"
         />
         <UnitPanelUpgradeItem
           upgradeName="Extra Space"
           desc="End a chapter with a couple sentences and a TON of blank space! Write 30% more chapters."
           func={upgrade.extraSpace}
-          cost="66 Chapters"
+          cost="132 Chapters"
         />
       </div>
     )
@@ -751,7 +751,7 @@ let StaffPanel = React.createClass({
           <div className="col-sm-3">
             <button className="btn btn-primary"
               onClick={this.buyMonkey}
-              data-tip="Writes 1 letter per second">
+              data-tip="Writes 1 letter every 4 seconds">
                 Buy Monkey for {prettify(this.props.save.monkeys.cost)} Words
             </button>
           </div>
